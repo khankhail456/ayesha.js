@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Assignment</title>
+</head>
+<body>
+<h1>Javascipt Assignment (Question 2 to 8)</h1>
+<script>
+    // ---Question # 1 ---
+
+    let firstName ="ayesha";
+    let lastName ="BiBi";
+console.log("Full Name:" + firstName + " " + lastName);
+
+// ---Question # 2 ---
+let num1=10;
+let num2=5;
+let num3=2;
+console.log("Addition:" +(num1+num2+num3));
+console.log("Subtraction:" +(num1-num2-num3));
+console.log("Multiplication:" +(num1*num2*num3));
+console.log("Division:" +(num1/num2/num3));
+
+// ---Question # 3 ---
+let temperature = prompt("Enter temperature:");
+if (temperature <=0)
+{
+    console.log("Freezing");
+}else{
+    console.log("Not Freezing");
+}
+
+// ---Question # 4 ---
+let age =prompt("Enter your age:");
+if (age>=0 && age<=12){
+    console.log("child");
+}else if(age>=13 && age<=19){
+    console.log("teenager");
+}else if(age>20 && age<=59){
+    console.log("adult");
+}else if(age>=60){
+    console.log("senior citizen");
+}
+
+// ---Question # 5 ---
+let units=prompt("Enter units");
+let bill=0;
+if(units<=100){
+    bill=units*10;
+}
+else if(units<=200){
+    bill=100*10+(units-100)*15;
+}
+else{
+    bill=100*10+100*15+(units-200)*20;
+}
+console.log("bill");
+
+// ---Question # 6 ---
+let color=prompt("Enter traffic light color(red,yellow,green):");
+if (color==="red"){
+    console.log("stop");
+}
+else if(color==="yellow"){
+    console.log("ready");
+}
+else if (color==="green"){
+    console.log("go");
+}
+else{
+    console.log("Invalid color");
+}
+
+// ---Question # 7 ---
+let money=prompt("enter your pocket money amount:");
+if(money>500){
+    console.log("you can buy a gift");
+}
+else{
+    console.log("save your money");
+}
+
+// ---Question # 8 ---
+let totalamount=prompt("enter total shopping amount");
+if(totalamount>=2000){
+    console.log("free Delivery");
+}
+else{
+    console.log("Delivery charges apply");
+}
+
+</script>
+</body>
+</html>
+</body>
+</html>
